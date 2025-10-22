@@ -1,0 +1,107 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.header {
+    padding-inline: 100px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+}
+.header__logo-image { 
+}
+.header__nav {
+}
+.header__nav-list {
+    display: flex;
+    gap: 75px;
+}
+.header__nav-item {
+    font-size: 16px;
+    font-weight: 500;
+}
+.header__nav-link {
+    color: #000;
+}
+.header__actions {
+    display: flex;
+    gap: 45px;
+}
+.header__actions-costumer {
+}
+.header__actions-img {
+}
+.header__actions-search {
+}
+.header__actions-favorite {
+}
+.header__actions-cart {
+}
+
+
+.main {
+    margin-top: 25px;
+}
+.hero {
+    position: relative;
+    background-image: url("/assets/img/banner.svg"); 
+    height: 100vh;
+}
+.main__hero-content {
+    background: #FFF3E3;
+    max-width: 643px;
+    max-height: 443px;
+    position: absolute;
+    top: 150px;
+    left: 739px;
+    padding: 62px 43px 37px 39px;
+    border-radius: 10px;
+ box-shadow: 0px 7px 5px -5px rgba(86, 86, 86, 0.6);}
+.hero__content-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero__content-title {
+    margin-top: 5px;
+    font-size: 56px;
+    font-weight: bold;
+    color: #B88E2F;
+}
+.hero__conetnt-text1 {
+    margin-top: 17px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.hero__content-btn {
+    margin-top: 46px;
+    width: 222px;
+    height: 74px;
+    background: #B88E2F;
+    color: #fff;
+    font-weight: 1000;
+    font-size: 16px;
+}
+.main__hero-baner {
+
+}
